@@ -31,5 +31,11 @@ namespace new_rep
         {
             label1.Text = textBox1.Text;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 img = new Form2();
+            img.Show();
+        }
     }
 }
