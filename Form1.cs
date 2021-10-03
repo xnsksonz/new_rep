@@ -21,5 +21,15 @@ namespace new_rep
         {
             Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+       
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            label1.Text = textBox1.Text;
+        }
     }
 }
